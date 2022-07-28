@@ -2,6 +2,20 @@
 
 ## Meeting notes
 
+07/28/2022:
+
+- Questions to think about for the group:
+  - How do we evaluate the closeness of two animes?
+  - How do we evaluate the performance of the model?
+    - Use the user base database to make a separate model and see how they compare?
+
+To Dos:
+- Intro 2 GNNs (Yash)
+- How to evaluate closeness? (Michael)
+- How to evaluate performance of our model? (Pritom)
+- Write a model based on user reviews (Karthik)
+- Use NLP to extract information from synopsis 
+
 07/22/2022:
 
 - We should at least have a baseline model before we dive into more complex ML rabbit holes. We decided to train a K-Nearest neighbors model on the kaggle dataset and use it as a baseline to compare against. We plan to have it ready by the next meeting, as we already have several implementations of this on Kaggle that we can refer to. Here's my favorite [one](https://www.kaggle.com/code/benroshan/content-collaborative-anime-recommendation)
