@@ -2,6 +2,16 @@
 
 ## Meeting notes
 
+08/12/2022:
+- Karthik presented the userbase_model for anime recommendation
+  - On first glance, it seems to be biased towards recommending popular animes, rather than similar-type animes. This might partially be due to small dataset used and partially due to the nature of the model. 
+- Michael confirmed that the closeness metric we have is the one most commonly used in these kinds of problems. 
+- We still don't have a good performance evaluation metric for this type of problem. However, the original idea of predicting the score for a given anime is something that we can evaluate the performance of our model based on. 
+
+To Dos:
+- Write a model based on what we have learnt so far, to predict the score of a given anime.
+  - Take the anime_with_synopsis, split it into 80-20 train test split, and using whatever parameters you want to choose predict the score.
+
 07/28/2022:
 
 - Questions to think about for the group:
